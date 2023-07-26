@@ -1,1 +1,116 @@
-https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7921.083764511394!2d-122.41941509160798!3d37.77492965718638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1626754468817!5m2!1sen!2sus
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    background: #F0F0F6;
+}
+img {
+    display: block;
+}
+.list {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+
+
+/*//// HERO //*/
+
+.main-sec {
+    display: flex;
+    gap: 30px;
+}
+.left-skills-menu {
+    width: 305px;
+    height: 1315px;
+    background-color: #ffffff;
+}
+.hero {
+    width: 970px;
+    height: 467px;
+    background-color: #ffffff;
+    margin: 0px;
+    display: flex;
+}
+.rigth-navbar {
+    width: 108px;
+    height: 1315px;
+    background-color: #ffffff;
+}
+.hero-info-list {
+}
+.main-text{
+    width: 500px;
+    color: var(--black, #2B2B2B);
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%; /* 59.328px */
+    padding: 93px 26.68px 18px 60px;
+}
+.front-span {
+    color: var(--yellow, #FFB400);
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%;
+}
+.main-paragraph {
+    width: 424px;
+    height: 88px;
+    color: var(--paragraph-font, #767676);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+
+    /* H6 - 16px */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    text-transform: capitalize;
+    padding-left: 60px;
+    padding-right: 102.68px;
+    padding-bottom: 25px;
+}
+.button-contact {
+    width: 154px;
+    height: 51px;
+    border: none;
+    border-radius: 5px;
+    background: var(--yellow, #FFB400);
+    color: var(--black, #2B2B2B);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    gap: 9px;
+    padding: 16px 32px;
+    align-items: center;
+    margin-left: 60px;
+    margin-bottom: 74px;
+    margin-right: 732.68;
+    transition: color 250ms, fill 250ms;
+}
+.button-contact:hover,
+.button-contact:focus,
+.button-contact:active +
+.svg-hire-me:hover {
+    color: #ffffff;
+    fill: #ffffff;
+}
+.svg-hire-me:hover {
+ 
+}
+.main-photo {
+    padding: 8px 56.6px 0.09px ;
+}
