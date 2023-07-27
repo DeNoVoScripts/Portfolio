@@ -114,3 +114,73 @@ img {
 .main-photo {
     padding: 8px 56.6px 0.09px ;
 }
+
+/*///  LEFT SECTION //*/
+
+.left-skills-menu {
+    margin-right: 30px;
+    margin-top: 12px;
+}
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    padding: 50px 35px 31px 34px;
+    position: relative;
+}
+.icon-online {
+    width: 28px;
+    height: 28px;
+    fill: var(--available, #7EB942);
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 50px;
+}
+.name-profile {
+    color: var(--black, #2B2B2B);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%; /* 22.248px */
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.profession-profile {
+    color: var(--paragraph-font, #767676);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+
+    /* Paragraph Progress - 15 */
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-list-profile {
+    display: flex;
+    gap: 15px;
+    padding-left: 40px;
+    padding-right: 46px;
+}
+.contact-list-item {
+    width: 24px;
+    height: 24px;
+    background-color: #FFB400;
+    border-radius: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.contact-link-profile {
+}
+.link {
+}
