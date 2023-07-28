@@ -184,3 +184,12 @@ img {
 }
 .link {
 }
+.line-of {
+    display: flex;
+    background-color: #f0f0f6;
+    width: 220px;
+    height: 1.5px;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 45px;
+}
