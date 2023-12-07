@@ -284,3 +284,83 @@ a {
     background-color: #461959;
     transition: color, 250ms, background-color, 250ms;
 }
+
+/*/  MY SERVICES /*/
+
+.my-services {
+    width: 100%;
+    height: 800px;
+    background-color: #31065A;
+}
+
+.services-text {
+    margin-left: 609px;
+    color: #FFF;
+    font-family: "Exo 2";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 10px;
+    padding-top: 76px;
+}
+
+.services-span {
+    color: #F86F03;
+    font-family: "Exo 2";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.services-arrow {
+    display: flex;
+    width: 225px;
+    height: 2px;
+    background: #D9D9D9;
+    margin-left: 609px;
+}
+
+.services-list {
+    display: flex;
+    gap: 19px;
+    padding-left: 151px;
+}
+
+.services-list-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 367px;
+    height: 399px;
+    border-radius: 15px;
+    background: #FFF;
+    margin-top: 98px;
+}
+
+.svg-services {
+    margin-top: 46px;
+}
+.services-text-list {
+    margin-top: 42px;
+    margin-bottom: 33px;
+    color: #170550;
+    font-family: "Exo 2";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.services-description {
+    width: 305px;
+    height: 151px;
+    color: #170550;
+    text-align: center;
+    font-family: "Exo 2";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
